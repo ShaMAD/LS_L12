@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../C#"
+		},
+		{
+			"name": "CSharpLearn",
+			"path": "../C#/CSharpLearn"
+		},
+		{
+			"path": "../../../Programs/Programming/Arduino/Perilstatic"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "GB",
+		"editor.tabCompletion": "on",
+		"diffEditor.codeLens": true
+	}
+}
