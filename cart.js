@@ -31,14 +31,11 @@ function removeFromCart(productId) {
     if ((productId in cart)) {
         delete cart[productId];
         const elemInCart = cartElem.querySelector(`div.cart_item[data-id="${productId}"]`);
-
-        elemInCart.remove();
-
+        
         const itemsInCart = countProperties(cart);
-        // console.log(cart);
-        // console.log(itemsInCart);
-
         cartHeight(itemsInCart);
+
+        setTimeout(elemInCart.remove(), 1000);
     }
 }
 
