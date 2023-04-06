@@ -466,7 +466,7 @@ header {
 }
 
 .cart_item {
-    margin-left: calc(calc(1300/1600) * 232px);
+    margin-left: 10vw;
     width: 652px;
     display: flex;
     flex-direction: row;
